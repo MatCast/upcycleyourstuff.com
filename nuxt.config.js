@@ -1,4 +1,8 @@
 export default {
+   env: {
+    perPage: 5,
+  },
+
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
