@@ -5,6 +5,7 @@ date: 2017-05-26 15:05:55 +0300
 image: forbici.jpg
 author: theirman
 tags: UX design
+description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 ---
 
 ## Prova

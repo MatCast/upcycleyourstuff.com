@@ -6,6 +6,7 @@
           :article-title="article.title"
           :article-image="article.image"
           :article-slug="article.slug"
+          :article-description="article.description"
         />
       </li>
     </ul>
@@ -29,6 +30,9 @@ export default {
     .only(['title', 'image', 'slug', 'description'])
       .limit(this.maxArticles)
       .fetch()
+    if (typeof this.articles.description !== 'undefined') {
+      this.articles.description = ''
+    }
   },
 }
 </script>

@@ -33,4 +33,14 @@ export default {
 }
 </script>
 
-<style></style>
+<style scoped>
+h3{
+    @apply text-xl
+}
+img {
+    @apply max-w-xs
+}
+p {
+    @apply max-w-xs
+}
+</style>

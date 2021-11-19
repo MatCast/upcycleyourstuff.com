@@ -50,7 +50,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   h1 {
     @apply text-4xl font-bold pb-4;
   }
