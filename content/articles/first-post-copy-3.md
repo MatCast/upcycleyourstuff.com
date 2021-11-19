@@ -1,11 +1,11 @@
 ---
 layout: post
-title: First Post Copy 2
+title: First Post Copy 3
 date: 2017-05-26 15:05:55 +0300
-image: single_post.jpg
+image: ago.jpg
 img-alt: Alt Text
 author: team_1
-tags: howto sameold
+tags: code
 category: Web Development
 ---
 

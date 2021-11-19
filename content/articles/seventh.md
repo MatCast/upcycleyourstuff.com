@@ -2,7 +2,7 @@
 layout: post
 title: Something about Tensorflow
 date: 2018-05-26 15:05:55 +0300
-image: single_post.jpg
+image: disegni.jpg
 author: yourman
 tags: tensorflow
 category: Machine Learning
