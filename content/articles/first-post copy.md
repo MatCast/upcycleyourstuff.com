@@ -2,7 +2,7 @@
 layout: post
 title: First Post Copy
 date: 2017-05-26 15:05:55 +0300
-image: single_post.jpg
+image: metro.jpg
 img-alt: Alt Text
 author: team_1
 tags: newtag

@@ -1,5 +1,6 @@
 <template>
-  <article class="content column is-12">
+  <article class="">
+    <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
     <!-- <PostAuthor :author="author" />
     <PostTags :tags="article.tags ? article.tags : ''" />
     <img :src="`/blog/${article.image}`" alt="article.img-alt" />
@@ -15,8 +16,9 @@
       </ul>
     </nav> -->
     <h1>{{ article.title }}</h1>
+    <img :src="`/${article.image}`" alt="article.img-alt"/>
     <nuxt-content class="max-w-2xl" :document="article" />
-    <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
+
   </article>
 </template>
 
