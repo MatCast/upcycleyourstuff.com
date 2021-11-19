@@ -5,6 +5,7 @@
         <BlogPostCard
           :article-title="article.title"
           :article-image="article.image"
+          :article-slug="article.slug"
         />
       </li>
     </ul>
@@ -25,6 +26,7 @@ export default {
   },
   async fetch() {
     this.articles = await this.$content('', { deep: true })
+    .only(['title', 'image', 'slug', 'description'])
       .limit(this.maxArticles)
       .fetch()
   },

@@ -1,8 +1,10 @@
 <template>
   <div>
+      <NuxtLink :to="`/blog/${articleSlug}`">
       <h3>{{articleTitle}}</h3>
       <img :src="`/${articleImage}`" :alt="articleTitle">
       <p>{{articleDescription}}</p>
+      </NuxtLink>
   </div>
 </template>
 
@@ -16,6 +18,11 @@ export default {
     articleImage: {
       type: String,
       required: true,
+    },
+    articleSlug: {
+      type: String,
+      required: false,
+      default:'',
     },
     articleDescription: {
       type: String,
