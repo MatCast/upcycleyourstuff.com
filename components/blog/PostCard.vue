@@ -1,6 +1,7 @@
 <template>
   <div>
       <NuxtLink :to="`/blog/${articleSlug}`">
+      <p>{{ formatDate(articleDate) }}</p>
       <h3>{{articleTitle}}</h3>
       <img :src="`/${articleImage}`" :alt="articleTitle">
       <p>{{articleDescription}}</p>
@@ -24,10 +25,20 @@ export default {
       required: false,
       default:'',
     },
+    articleDate: {
+      type: Date,
+      required: true,
+    },
     articleDescription: {
       type: String,
       required: false,
       default:'',
+    },
+  },
+  methods: {
+    formatDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
     },
   },
 }

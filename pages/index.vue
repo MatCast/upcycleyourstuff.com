@@ -14,7 +14,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 h1 {
   @apply text-8xl font-bold;
 }
