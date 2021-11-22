@@ -1,12 +1,15 @@
 <template>
-  <div>
-      <NuxtLink :to="`/blog/${articleSlug}`">
-      <p>{{ formatDate(articleDate) }}</p>
-      <h3>{{articleTitle}}</h3>
+  <article>
+      <!-- <BlogPostCardHeader :article-title="articleTitle" :article-date="formatDate(articleDate)"/>
       <img :src="`/${articleImage}`" :alt="articleTitle">
-      <p>{{articleDescription}}</p>
-      </NuxtLink>
-  </div>
+      <p>{{articleDescription}}</p> -->
+      <BlogPostCardContainer
+        :article-title="articleTitle"
+        :article-date="formatDate(articleDate)"
+        :article-image="articleImage"
+        :article-slug="articleSlug"
+      />
+  </article>
 </template>
 
 <script>
@@ -22,8 +25,7 @@ export default {
     },
     articleSlug: {
       type: String,
-      required: false,
-      default:'',
+      required: true,
     },
     articleDate: {
       type: Date,
@@ -32,7 +34,7 @@ export default {
     articleDescription: {
       type: String,
       required: false,
-      default:'',
+      default: '',
     },
   },
   methods: {
@@ -45,13 +47,13 @@ export default {
 </script>
 
 <style scoped>
-h3{
-    @apply text-xl
+h3 {
+  @apply text-xl;
 }
 img {
-    @apply max-w-xs
+  @apply max-w-xs;
 }
 p {
-    @apply max-w-xs
+  @apply max-w-xs;
 }
 </style>
