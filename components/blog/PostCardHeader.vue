@@ -12,11 +12,11 @@
     "
   >
     <NuxtLink :to="`/blog/${articleSlug}`">
-      <h3 class="text-lg font-bold uppercase text-white">
+      <h3 class="text-lg font-bold uppercase text-white font-heading pb-1.5">
         {{ articleTitle }}
       </h3>
     </NuxtLink>
-    <div class="text-xs text-gray-500">{{ articleDate }}</div>
+    <div class="text-gray-400"><p>{{ articleDate }}</p></div>
   </div>
 </template>
 

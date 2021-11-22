@@ -40,6 +40,8 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // google fonts
+    '@nuxtjs/google-fonts'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -47,6 +49,13 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
+
+  googleFonts: {
+  families: {
+      Lato: true,
+      'Noticia Text': true,
+  }
+},
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

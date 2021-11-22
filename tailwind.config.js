@@ -20,6 +20,10 @@ module.exports = {
 
       'sm': {'max': '639px'},
       // => @media (max-width: 639px) { ... }
-    }
+    },
+    fontFamily: {
+      heading: ['Lato', 'ui-sans-serif', 'system-ui'],
+      base: ['Noticia Text', 'ui-sans-serif', 'system-ui'],
+    },
   }
 }

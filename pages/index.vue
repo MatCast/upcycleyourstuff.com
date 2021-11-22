@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <div><h1>Hero Section</h1></div>
+    <div><h1 class="text-8xl font-bold">Hero Section</h1></div>
     <BlogMultiplePostCards :max-articles="maxArticles" />
   </div>
 </template>
@@ -15,7 +15,4 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  @apply text-8xl font-bold;
-}
 </style>
