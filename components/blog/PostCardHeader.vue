@@ -6,7 +6,7 @@
       py-5
       px-7
       md:mt-0 md:ml-0
-      bg-black
+      bg-primary
       relative
       outline-solid
     "
