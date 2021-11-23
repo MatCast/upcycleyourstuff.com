@@ -1,8 +1,9 @@
 <template>
-  <main>
+  <main class="bg-gray-100">
     <TheHeader />
-
+    <div id="content" class="flex justify-center">
       <Nuxt />
+    </div>
 
     <TheFooter />
   </main>
