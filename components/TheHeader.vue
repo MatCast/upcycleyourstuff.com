@@ -1,12 +1,14 @@
 <template>
   <header>
-    <ul>
-      <li v-for="(item, key) of items" :key="key" :to="item.to">
-        <NuxtLink :to="item.to">
-          {{ item.title }}
-        </NuxtLink>
-      </li>
-    </ul>
+    <nav class="main-header">
+      <ul class="inline-flex w-full space-x-8 justify-center p-5 uppercase bg-white">
+        <li v-for="(item, key) of items" :key="key" :to="item.to">
+          <NuxtLink :to="item.to">
+            {{ item.title }}
+          </NuxtLink>
+        </li>
+      </ul>
+    </nav>
   </header>
 </template>
 
@@ -30,3 +32,10 @@ export default {
   },
 }
 </script>
+
+<style>
+nav.main-header a.nuxt-link-exact-active {
+  @apply border-b-2 border-primary;
+  /* font-weight: bold; */
+}
+</style>
