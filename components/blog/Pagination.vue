@@ -14,13 +14,15 @@
               justify-center
               w-10
               h-10
-              text-primary
+              ${textColor}
               transition-colors
               ${bgColor}
               duration-150
               rounded-full
               focus:shadow-outline
               ${hoverColor}
+              outline-solid
+              hover:outline-none
             `"
           >
             <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
@@ -41,13 +43,15 @@
               justify-center
               w-10
               h-10
-              text-primary
+              ${textColor}
               transition-colors
               duration-150
               ${bgColor}
               rounded-full
               focus:shadow-outline
               ${hoverColor}
+              outline-solid
+              hover:outline-none
             `"
           >
             <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20">
@@ -77,8 +81,9 @@ export default {
     },
   },
   data() {
-    return { bgColor: 'bg-gray-200',
-    hoverColor: 'hover:bg-gray-400' }
+    return { bgColor: 'bg-primary',
+    textColor: 'text-white',
+    hoverColor: 'hover:bg-primary' }
   },
   computed: {
     prevLink() {

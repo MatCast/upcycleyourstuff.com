@@ -31,4 +31,9 @@ module.exports = {
       base: ['Noticia Text', 'ui-sans-serif', 'system-ui'],
     },
   },
+  variants: {
+    extend: {
+      outline: ['hover'],
+    },
+  },
 }
