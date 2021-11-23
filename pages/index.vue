@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <div><h1 class="text-8xl font-bold">Hero Section</h1></div>
     <BlogMultiplePostCards :max-articles="maxArticles" />
   </div>
@@ -14,5 +13,4 @@ export default {
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
