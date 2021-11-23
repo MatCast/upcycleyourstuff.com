@@ -1,11 +1,11 @@
 <template>
-  <body>
+  <main>
     <TheHeader />
-    <main>
+
       <Nuxt />
-    </main>
+
     <TheFooter />
-  </body>
+  </main>
 </template>
 
 <style>
