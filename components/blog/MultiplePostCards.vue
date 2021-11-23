@@ -1,5 +1,5 @@
 <template>
-  <div id="post-feed" class="max-w-3xl">
+  <div id="post-feed" class="max-w-3xl m-auto">
     <ul>
       <li v-for="article in articles" :key="article.slug">
         <BlogPostCard

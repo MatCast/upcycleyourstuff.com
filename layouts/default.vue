@@ -1,8 +1,8 @@
 <template>
   <main class="bg-gray-100">
     <TheHeader />
-    <div id="content" class="flex justify-center">
-      <Nuxt />
+    <div id="content" >
+      <Nuxt class="w-full"/>
     </div>
 
     <TheFooter />
