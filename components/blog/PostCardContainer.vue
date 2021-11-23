@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <div class="flex md:flex-col p-5 items-center">
-      <div class="w-full m-5">
+      <div class="w-full m-5 flex justify-center">
         <NuxtLink :to="`/blog/${articleSlug}`">
           <img
             width="400"
