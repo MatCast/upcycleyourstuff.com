@@ -64,10 +64,11 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-  @apply text-4xl font-bold pb-4;
+* >>> h2 {
+  @apply text-3xl mb-5 pt-7 font-semibold capitalize;
 }
-h2 {
-  @apply text-3xl;
+
+* >>> p {
+  @apply mb-5 text-sm;
 }
 </style>

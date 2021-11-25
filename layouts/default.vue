@@ -1,7 +1,7 @@
 <template>
   <main class="bg-light">
     <TheHeader />
-    <div id="content" class="relative">
+    <div id="content" class="relative pb-10">
       <Nuxt class="w-full flex flex-col items-center"/>
     </div>
 
