@@ -1,6 +1,6 @@
 <template>
   <article class="">
-    <p>Post last updated: {{ formatDate(article.updatedAt) }}</p>
+
     <!-- <PostAuthor :author="author" />
     <PostTags :tags="article.tags ? article.tags : ''" />
     <img :src="`/blog/${article.image}`" alt="article.img-alt" />
@@ -15,10 +15,14 @@
         </li>
       </ul>
     </nav> -->
-    <h1>{{ article.title }}</h1>
-    <img :src="`/${article.image}`" alt="article.img-alt"/>
-    <nuxt-content class="max-w-2xl" :document="article" />
+    <!-- <div class="w-full flex justify-center my-4">
+      <BlogPostHeading :article-title="article.title" />
+    </div> -->
 
+    <div :style="styleObject" class="w-full flex justify-center items-center mb-10 h-96">
+      <BlogPostHeading :article-title="article.title" :article-date="formatDate(article.updatedAt)"/>
+    </div>
+    <nuxt-content class="max-w-2xl" :document="article" />
   </article>
 </template>
 
@@ -41,6 +45,15 @@ export default {
       title: this.article.title,
     }
   },
+  computed: {
+    styleObject() {
+      return {
+        backgroundImage: `url('/${this.article.image}')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }
+    },
+  },
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -51,10 +64,10 @@ export default {
 </script>
 
 <style scoped>
-  h1 {
-    @apply text-4xl font-bold pb-4;
-  }
-  h2 {
-    @apply text-3xl;
-  }
+h1 {
+  @apply text-4xl font-bold pb-4;
+}
+h2 {
+  @apply text-3xl;
+}
 </style>
