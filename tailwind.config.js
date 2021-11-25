@@ -1,13 +1,20 @@
-const primaryColor = '#000'
-
+const primaryColor = '#8AC6D1'
+const accentColor = '#d81e5b'
+const light = '#FAE3D9CC'
+const black = '#000'
+const secondaryColor = '#BBDED6'
+// https://www.colorhunt.co/palette/ffb6b9fae3d9bbded68ac6d1
 module.exports = {
   theme: {
     extend: {
       colors: {
         primary: `${primaryColor}`,
+        secondary: `${secondaryColor}`,
+        accent: `${accentColor}`,
+        light: `${light}`,
       },
       outline: {
-        solid: [`2px solid ${primaryColor}`, '2px'],
+        solid: [`2px solid ${black}`, '2px'],
       },
     },
     screens: {
