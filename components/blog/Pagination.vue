@@ -82,7 +82,7 @@ export default {
   },
   data() {
     return { bgColor: 'bg-primary',
-    textColor: 'text-white',
+    textColor: 'text-black',
     hoverColor: 'hover:bg-primary' }
   },
   computed: {

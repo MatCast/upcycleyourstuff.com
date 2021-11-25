@@ -6,17 +6,18 @@
       py-5
       px-7
       md:mt-0 md:ml-0
-      bg-primary
+      bg-secondary
       relative
       outline-solid
+      text-black
     "
   >
     <NuxtLink :to="`/blog/${articleSlug}`">
-      <h3 class="text-lg font-bold uppercase text-white font-heading pb-1.5">
+      <h3 class="text-lg font-bold uppercase font-heading pb-1.5">
         {{ articleTitle }}
       </h3>
     </NuxtLink>
-    <div class="text-gray-400"><p>{{ articleDate }}</p></div>
+    <div ><p>{{ articleDate }}</p></div>
   </div>
 </template>
 
