@@ -12,10 +12,10 @@
       max-w-2xl
     "
   >
-      <h1 class="text-4xl font-bold uppercase font-heading pb-3 text-center">
+      <h1 class="text-4xl font-bold uppercase font-heading py-3 text-center">
         {{ articleTitle }}
       </h1>
-      <p class="text-center">{{ articleDate }}</p>
+      <p v-if="articleDate.length" class="text-center">{{ articleDate }}</p>
   </div>
 </template>
 
@@ -28,7 +28,8 @@ export default {
     },
     articleDate: {
       type: String,
-      required: true,
+      required: false,
+      default: ''
     },
   },
 }

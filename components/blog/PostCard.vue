@@ -47,13 +47,10 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  @apply text-xl;
-}
-img {
+* >>> img {
   @apply max-w-xs;
 }
-p {
-  @apply max-w-xs;
+* >>> p {
+  @apply max-w-xs text-xs;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <main class="bg-light">
     <TheHeader />
-    <div id="content" class="relative pb-10">
+    <div id="content" class="pb-10">
       <Nuxt class="w-full flex flex-col items-center"/>
     </div>
 
@@ -11,7 +11,7 @@
 
 <style>
 p {
-  @apply font-base leading-6 text-xs tracking-wide;
+  @apply font-base leading-6 text-sm tracking-wide;
 }
 h1,
 h2,
