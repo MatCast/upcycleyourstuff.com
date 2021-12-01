@@ -1,5 +1,6 @@
 <template>
   <div>
+    <BlogPostHeading article-title="Our Latest Stories" />
     <BlogMultiplePostCards :page-number="pageNumber" />
   </div>
 </template>
