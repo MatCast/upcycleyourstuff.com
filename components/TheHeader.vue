@@ -25,7 +25,7 @@ export default {
         {
           title: 'Blog',
           icon: 'blog',
-          to: { name: 'blog' },
+          to: '/blog/page/1',
         },
       ],
     }
