@@ -1,12 +1,11 @@
 <template>
-  <main class="bg-light">
+  <div id="__main_div" class="w-full flex flex-col">
     <TheHeader />
-    <div id="content" class="pb-10">
+    <main class="flex-auto pb-5">
       <Nuxt class="w-full flex flex-col items-center"/>
-    </div>
-
+    </main>
     <TheFooter />
-  </main>
+  </div>
 </template>
 
 <style>
