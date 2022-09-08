@@ -1,6 +1,6 @@
 <template>
   <div id="hero" class="hero h-96 w-full flex items-center">
-    <h1 class="text-8xl font-bold text-center uppercase text-white">Upycle your Clothes</h1>
+    <h1 class="text-8xl font-bold text-center uppercase text-white">Upycle Your Stuff</h1>
   </div>
 </template>
 
