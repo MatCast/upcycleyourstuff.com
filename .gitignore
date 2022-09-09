@@ -1,4 +1,10 @@
+# ### Local ###
+
 my_commit.sh
+_dev_*
+
+# #############
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
