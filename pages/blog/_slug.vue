@@ -22,7 +22,7 @@
     <div :style="styleObject" class="w-full flex justify-center items-center mb-10 h-96">
       <BlogPostHeading :article-title="article.title" :article-date="formatDate(article.updatedAt)"/>
     </div>
-    <nuxt-content class="max-w-2xl" :document="article" />
+    <nuxt-content class="max-w-2xl px-7" :document="article" />
   </article>
 </template>
 

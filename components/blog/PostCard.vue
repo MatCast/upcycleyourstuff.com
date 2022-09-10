@@ -51,6 +51,6 @@ export default {
   @apply max-w-xs;
 }
 * >>> p {
-  @apply max-w-xs text-xs;
+  @apply px-7 text-xs;
 }
 </style>

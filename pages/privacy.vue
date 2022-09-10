@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-content class="max-w-2xl" :document="privacyPolicy" />
+    <nuxt-content class="max-w-2xl px-7" :document="privacyPolicy" />
   </div>
 </template>
 
