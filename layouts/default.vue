@@ -20,4 +20,7 @@ h5,
 h6 {
   @apply font-heading uppercase;
 }
+button {
+  @apply font-heading uppercase font-bold;
+}
 </style>
