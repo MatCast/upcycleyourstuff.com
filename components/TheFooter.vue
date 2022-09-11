@@ -17,3 +17,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+p > a {
+  @apply no-underline
+}
+</style>
