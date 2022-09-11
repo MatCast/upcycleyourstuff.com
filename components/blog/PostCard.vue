@@ -8,6 +8,7 @@
         :article-date="formatDate(articleDate)"
         :article-image="articleImage"
         :article-slug="articleSlug"
+        :article-description="articleDescription"
       />
   </article>
 </template>

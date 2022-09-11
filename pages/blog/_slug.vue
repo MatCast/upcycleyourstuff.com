@@ -43,6 +43,8 @@ export default {
   head() {
     return {
       title: this.article.title,
+      meta: [{ hid: 'description', name: 'description', content: this.article.description }],
+
     }
   },
   computed: {
@@ -68,7 +70,17 @@ export default {
   @apply text-3xl mb-5 pt-7 font-semibold capitalize;
 }
 
+* >>> h3 {
+  @apply text-xl mb-5 pt-1 normal-case;
+}
+
 * >>> p {
   @apply mb-5 text-sm;
+}
+* >>> ul {
+  @apply list-disc;
+}
+* >>> ul > li {
+    @apply ml-2;
 }
 </style>

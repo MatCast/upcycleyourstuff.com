@@ -20,10 +20,7 @@
         />
         <div class="my-5 text-xs">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
-            nihil ad illum molestiae porro nulla dolore, laudantium possimus
-            ullam enim minus numquam quisquam odio est obcaecati dolores.
-            Tempore, deserunt incidunt.
+            {{ articleDescription }}
           </p>
         </div>
       </div>
