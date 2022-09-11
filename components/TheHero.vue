@@ -26,7 +26,7 @@ export default {}
 
 <style scoped>
 .hero {
-  background-image: url('/fili.jpg');
+  background-image: url('/disegni_cropped.jpg');
   background-size: cover;
 }
 </style>
