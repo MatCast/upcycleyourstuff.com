@@ -75,7 +75,7 @@ export default {
 }
 
 * >>> p {
-  @apply mb-5 text-sm;
+  @apply mb-5;
 }
 * >>> ul {
   @apply list-disc;

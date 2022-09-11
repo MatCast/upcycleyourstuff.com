@@ -9,8 +9,8 @@
 </template>
 
 <style>
-p {
-  @apply font-base leading-6 text-sm tracking-wide;
+p, ul {
+  @apply font-base leading-6 text-base tracking-wide;
 }
 h1,
 h2,
@@ -22,5 +22,8 @@ h6 {
 }
 button {
   @apply font-heading uppercase font-bold;
+}
+p > a {
+  @apply underline
 }
 </style>
