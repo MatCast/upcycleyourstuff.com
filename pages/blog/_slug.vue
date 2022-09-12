@@ -78,7 +78,7 @@ export default {
   @apply mb-5;
 }
 * >>> ul {
-  @apply list-disc;
+  @apply list-disc list-inside;
 }
 * >>> ul > li {
     @apply ml-2;
