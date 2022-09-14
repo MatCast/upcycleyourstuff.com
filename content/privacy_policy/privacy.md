@@ -26,4 +26,4 @@ we reserve the right to update or change our Privacy Policy at any time and you 
 
 ## Contact Information
 
-For any questions or concerns regarding the privacy policy, please send us an email to [[Contact Email Address]].
+For any questions or concerns regarding the privacy policy, please send us an email to privacy@upcycleyourstuff.com.
