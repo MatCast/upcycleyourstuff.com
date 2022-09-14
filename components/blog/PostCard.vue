@@ -8,6 +8,7 @@
         :article-date="formatDate(articleDate)"
         :article-image="articleImage"
         :article-slug="articleSlug"
+        :article-description="articleDescription"
       />
   </article>
 </template>
@@ -51,6 +52,6 @@ export default {
   @apply max-w-xs;
 }
 * >>> p {
-  @apply max-w-xs text-xs;
+  @apply px-7 text-xs;
 }
 </style>

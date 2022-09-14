@@ -22,7 +22,7 @@
     <div :style="styleObject" class="w-full flex justify-center items-center mb-10 h-96">
       <BlogPostHeading :article-title="article.title" :article-date="formatDate(article.updatedAt)"/>
     </div>
-    <nuxt-content class="max-w-2xl" :document="article" />
+    <nuxt-content class="max-w-2xl px-7" :document="article" />
   </article>
 </template>
 
@@ -43,6 +43,8 @@ export default {
   head() {
     return {
       title: this.article.title,
+      meta: [{ hid: 'description', name: 'description', content: this.article.description }],
+
     }
   },
   computed: {
@@ -63,12 +65,23 @@ export default {
 }
 </script>
 
-<style scoped>
-* >>> h2 {
-  @apply text-3xl mb-5 pt-7 font-semibold capitalize;
+<style >
+.nuxt-content h2 {
+  @apply text-3xl mb-5 pt-4 font-semibold capitalize;
 }
 
-* >>> p {
-  @apply mb-5 text-sm;
+.nuxt-content h3 {
+  @apply text-2xl mb-5 pt-1 normal-case;
+}
+
+.nuxt-content p {
+  @apply mb-4;
+}
+.nuxt-content ul {
+  @apply list-disc list-inside;
+}
+
+.nuxt-content img {
+ @apply mt-4;
 }
 </style>

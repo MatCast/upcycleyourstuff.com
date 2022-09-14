@@ -81,7 +81,7 @@ export default {
     },
   },
   data() {
-    return { bgColor: 'bg-primary',
+    return { bgColor: 'bg-secondary',
     textColor: 'text-black',
     hoverColor: 'hover:bg-primary' }
   },

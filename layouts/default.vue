@@ -9,8 +9,8 @@
 </template>
 
 <style>
-p {
-  @apply font-base leading-6 text-sm tracking-wide;
+p, ul {
+  @apply font-base leading-6 text-base tracking-wide list-none;
 }
 h1,
 h2,
@@ -19,5 +19,14 @@ h4,
 h5,
 h6 {
   @apply font-heading uppercase;
+}
+button {
+  @apply font-heading uppercase font-bold;
+}
+p > a {
+  @apply underline
+}
+ul > li {
+  @apply mb-0;
 }
 </style>

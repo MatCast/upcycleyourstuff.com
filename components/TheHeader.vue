@@ -33,9 +33,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 nav.main-header a.nuxt-link-exact-active {
   @apply border-b-2 border-accent;
   /* font-weight: bold; */
+}
+ul {
+@apply font-heading uppercase list-none;
 }
 </style>

@@ -33,7 +33,7 @@ export default {
     return { articles: null, nextPage: false }
   },
   async fetch() {
-    this.articles = await this.$content('', { deep: true })
+    this.articles = await this.$content('articles', { deep: true })
       .only(['title', 'image', 'slug', 'description', 'date'])
       .sortBy('createdAt', 'desc')
       .limit(this.maxArticles)

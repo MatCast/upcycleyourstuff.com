@@ -1,24 +1,22 @@
 <template>
   <section class="flex justify-center align-middle h-full">
-    <h1 class="title">{{ message }}</h1>
-    <p v-if="statusCode === 404" class="description">
-      <a v-if="typeof $route === 'undefined'"
-        ><b-button class="has-text-dark" href="/" type="is-primary"
-          >Back Home</b-button
-        ></a
-      >
-      <NuxtLink v-else class="has-text-dark" to="/"
-        ><b-button type="is-primary" class="has-text-dark"
-          >Back Home</b-button
-        ></NuxtLink
-      >
+    <h1 class="pb-5 text-2xl">{{ message }}</h1>
+    <p v-if="statusCode === 404">
+      <a v-if="typeof $route === 'undefined'" href="/"
+        ><PrimaryButton :button-text="'Back Home'"
+      /></a>
+      <NuxtLink v-else to="/"
+        ><PrimaryButton :button-text="'Back Home'"
+      /></NuxtLink>
     </p>
   </section>
 </template>
 
 <script>
+import PrimaryButton from '../components/PrimaryButton.vue'
 export default {
   name: 'NuxtError',
+  components: { PrimaryButton },
   props: {
     error: {
       type: Object,
