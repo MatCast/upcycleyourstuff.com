@@ -4,15 +4,11 @@ We take your privacy seriously. To better protect your privacy we provide this p
 
 ## Collection of Routine Information
 
-This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitors to this website. The information is tracked for routine administration and maintenance purposes.
+This website track basic information about their visitors. This information includes, but is not limited to, IP addresses, browser details, timestamps and referring pages. None of this information can personally identify specific visitors to this website. The information is tracked for routine administration and maintenance purposes. The information is stored and collected via [GoatCounter](https://www.goatcounter.com/). This website is hosted on [GitHub](https://github.com) via [GitHub Pages](https://pages.github.com/) GitHub can collects some technical information regarding the navigation of this website. In this scope GitHub acts as a data processor of this information. We have instructed GitHub to collect Technical Information in the sense of the privacy policy, for the purpose of maintaining security and integrity of the website, which can be covered by legitimate interest. We have not instructed/allowed GitHub to process any other data from this website. Please visit [GitHub Pages Privacy Policy](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement#github-pages) for further information.
 
 ## Cookies
 
 Where necessary, this website uses cookies to store information about a visitor’s preferences and history in order to better serve the visitors and/or present the visitors with customized content.
-
-## Advertisement and Other Third Parties
-
-Advertising partners and other third parties may use cookies, scripts and/or web beacons to track visitors activities on this website in order to display advertisements and other useful information. Such tracking is done directly by the third parties through their own servers and is subject to their own privacy policies. This website has no access or control over these cookies, scripts and/or web beacons that may be used by third parties. Learn how to [opt out of Google’s cookie usage](http://www.google.com/privacy_ads.html).
 
 ## Links to Third Party Websites
 
