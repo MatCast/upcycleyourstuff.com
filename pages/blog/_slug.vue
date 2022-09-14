@@ -65,22 +65,23 @@ export default {
 }
 </script>
 
-<style scoped>
-* >>> h2 {
-  @apply text-3xl mb-5 pt-7 font-semibold capitalize;
+<style >
+.nuxt-content h2 {
+  @apply text-3xl mb-5 pt-4 font-semibold capitalize;
 }
 
-* >>> h3 {
-  @apply text-xl mb-5 pt-1 normal-case;
+.nuxt-content h3 {
+  @apply text-2xl mb-5 pt-1 normal-case;
 }
 
-* >>> p {
-  @apply mb-5;
+.nuxt-content p {
+  @apply mb-4;
 }
-* >>> ul {
+.nuxt-content ul {
   @apply list-disc list-inside;
 }
-* >>> ul > li {
-    @apply ml-2;
+
+.nuxt-content img {
+ @apply mt-4;
 }
 </style>
