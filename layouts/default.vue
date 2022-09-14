@@ -10,7 +10,7 @@
 
 <style>
 p, ul {
-  @apply font-base leading-6 text-base tracking-wide;
+  @apply font-base leading-6 text-base tracking-wide list-none;
 }
 h1,
 h2,
@@ -25,5 +25,8 @@ button {
 }
 p > a {
   @apply underline
+}
+ul > li {
+  @apply mb-0;
 }
 </style>
