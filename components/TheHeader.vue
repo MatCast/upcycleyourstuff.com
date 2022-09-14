@@ -39,6 +39,6 @@ nav.main-header a.nuxt-link-exact-active {
   /* font-weight: bold; */
 }
 ul {
-@apply font-heading uppercase;
+@apply font-heading uppercase list-none;
 }
 </style>
